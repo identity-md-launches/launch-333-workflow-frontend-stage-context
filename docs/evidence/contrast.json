@@ -1,0 +1,26 @@
+[
+  {
+    "name": "body / page",
+    "foreground": "rgb(34, 55, 45)",
+    "background": "rgb(246, 245, 239)",
+    "ratio": 11.635267228949122
+  },
+  {
+    "name": "muted / page",
+    "foreground": "rgb(88, 100, 93)",
+    "background": "rgb(246, 245, 239)",
+    "ratio": 5.66155740563337
+  },
+  {
+    "name": "muted / surface",
+    "foreground": "rgb(88, 100, 93)",
+    "background": "rgb(255, 255, 255)",
+    "ratio": 6.183977406872085
+  },
+  {
+    "name": "button label / accent",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(46, 91, 67)",
+    "ratio": 7.796106831143482
+  }
+]

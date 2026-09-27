@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-09-27T06:33:26.369Z",
+  "basePath": "/ipfs/heartbeat/",
+  "browser": "Chromium 141 via Playwright 1.56.1",
+  "checks": [
+    "disconnected export loads from gateway subpath, keyboard focus and no-wallet guidance",
+    "wallet rejection, wrong-chain gating and exact add-chain fallback",
+    "Created and BeneficiaryChanged discovery filters obsolete beneficiaries and reads roles",
+    "desktop accessibility scan has no WCAG A/AA violations",
+    "create validates beneficiary and submits a zero-deposit switch",
+    "check-in, deposit, withdrawal, beneficiary and period changes encode and refresh state",
+    "claim and reclaim allow a different recipient and permanently close switches",
+    "simulation revert and signing rejection are visible and prevent sending",
+    "native-in swap quotes with eth_call, uses minimum output and simulates execute before signing",
+    "token-in swap requires distinct exact-amount Permit2 and router approvals",
+    "token transfer, zero allowance revocation, and transferFrom use exported ABI",
+    "responsive production page has no overflow at 1440, 768, 390 and 320 CSS pixels",
+    "editing swap inputs invalidates quotes; expired quotes and router reverts cannot sign",
+    "keyboard-only creation completes the primary form with visible focus",
+    "RPC failures visibly disable actions; bounded log queries shrink and recover",
+    "account and chain changes clear wallet data and disable writes",
+    "missing deployed code blocks transaction readiness",
+    "ABI tampering is detected before RPC transaction readiness",
+    "no browser exceptions or console errors in successful flows"
+  ],
+  "consoleErrors": [],
+  "transactions": "All mocked. No live transaction was signed or broadcast."
+}

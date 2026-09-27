@@ -1,0 +1,49 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-244-deadmansswitch",
+  "version": 1,
+  "launchId": "f84877c1-85ef-4815-9ad7-f827272adcef",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Intended for Sepolia (11155111) only. DeadMansSwitch is a test-ETH toy, not a custody or inheritance product. Deploy LaunchToken, then DeadMansSwitch; both constructors are nonpayable and take no arguments. No initialization calls are required. DeadMansSwitch accounts for ETH per switch, has no owner, admin, pause or upgrade path, and does not use BEAT. The pool pairs BEAT with native ETH and has no hook. initialPrice is decimal sqrtPriceX96; the deployment service derives the effective opening price from the pinned policy when it specifies initialMarketCapWei. The factory supplies liquidity and MerkleDistributor. Policy and signed artifact linkage are supplied by services.",
+    "token": {
+      "name": "Heartbeat",
+      "symbol": "BEAT",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "DeadMansSwitch",
+        "constructorArgs": []
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xf46a2890349e19307f7ae9bcefb1c4a0677289c4524e2c15949061d2af0b2ba6",
+      "abiHash": "02dffa8d3c3109917f325acd9170704f417911b4102a0d947e5933076d2a863e",
+      "address": "0x147ee1ea6dff20feb227151fef4c5d41d46f2dd2",
+      "blockNumber": 11791316,
+      "creationCodeHash": "ca0151f533ef822a5c5cab50942a00e5e6fb0b44291cdbe718f7edd23f2e60bb"
+    },
+    {
+      "name": "DeadMansSwitch",
+      "txHash": "0xf46a2890349e19307f7ae9bcefb1c4a0677289c4524e2c15949061d2af0b2ba6",
+      "abiHash": "adf8ef453b7bd1a121259c49eae882c4f1131d1ce1e237c45cfe47597e2b77d4",
+      "address": "0xcbb96b086779dd114aa63fbdfd022f5d7fae9b35",
+      "blockNumber": 11791316,
+      "creationCodeHash": "dda41775df67f89a32ed95db167ade75174dc4d0177e00857f09899ed1ce25b4"
+    }
+  ],
+  "sourceCommit": "9ce28708c176cc89f2e5d0e4154ac829eee5af58",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "f8548478c280a2d9ed4c2a23b2d60133d1744d9eb045388c07e0173ef33338bd"
+}

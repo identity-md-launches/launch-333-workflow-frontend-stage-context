@@ -1,0 +1,63 @@
+{
+  "recordedAt": "2026-09-27T06:20:54.535Z",
+  "type": "read-only public RPC checks; no transactions broadcast",
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "blockNumber": "11791500",
+      "blockTimestamp": "1790490048",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "codeBytes": 1521,
+          "read": "1000000000000000000000000000"
+        },
+        {
+          "name": "DeadMansSwitch",
+          "codeBytes": 3271,
+          "read": "0"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "blockNumber": "11791500",
+      "blockTimestamp": "1790490048",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "codeBytes": 1521,
+          "read": "1000000000000000000000000000"
+        },
+        {
+          "name": "DeadMansSwitch",
+          "codeBytes": 3271,
+          "read": "0"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "blockNumber": "11791500",
+      "blockTimestamp": "1790490048",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "codeBytes": 1521,
+          "read": "1000000000000000000000000000"
+        },
+        {
+          "name": "DeadMansSwitch",
+          "codeBytes": 3271,
+          "read": "0"
+        }
+      ],
+      "status": "passed"
+    }
+  ]
+}

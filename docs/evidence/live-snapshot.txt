@@ -1,0 +1,23 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link "Heartbeat home" [ref=e6] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e11]
+    - complementary [ref=e15]:
+      - generic [ref=e16]: Test ETH only
+      - paragraph [ref=e17]: This is a Sepolia test toy, not a custody or inheritance product. Use test funds only.
+    - main [ref=e18]:
+      - region "Stay in touch. Keep the clock alive." [ref=e19]
+      - generic [ref=e41]: Verifying deployment…
+      - region "Wallet and transaction status"
+      - generic [ref=e44]
+      - generic [ref=e79]
+      - region "Deployment details" [ref=e122]
+    - contentinfo [ref=e90]:
+      - link "heartbeat." [ref=e91] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e94]: Built for small experiments. Sepolia only.
+      - generic [ref=e95]: DeadMansSwitch / 01

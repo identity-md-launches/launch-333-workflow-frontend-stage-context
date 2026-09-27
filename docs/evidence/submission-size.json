@@ -1,0 +1,13 @@
+{
+  "scopeAudit": "passed: all changed paths are web/, dist/, or docs/; only web/.gitignore is an added dotfile",
+  "fileCountExcludingThisReport": 96,
+  "rawSnapshotBytesExcludingThisReport": 3183634,
+  "limitBytes": 8388608,
+  "exportBytes": 530078,
+  "exportAssetCount": 6,
+  "dependencyDirectoriesIncluded": false,
+  "submodulesIncluded": false,
+  "fullGitBundleUnderLimit": true,
+  "method": "Reconstruct the complete current working snapshot plus this identical report in a disposable local clone under test/scratch; commit only in that test clone and measure git bundle --all. Assert below 8 MiB before writing this evidence. The original repository Git metadata remains unchanged.",
+  "repositoryCommit": "unavailable: original .git is read-only; the test clone is measurement scaffolding, not the submitted repository"
+}
